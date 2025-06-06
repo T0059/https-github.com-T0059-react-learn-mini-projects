@@ -1,0 +1,65 @@
+.container {
+  margin: 50px auto;
+  max-width: 400px;               
+  padding: 20px;                  
+  border-radius: 12px;            
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+  background-color: #e76bb8; 
+
+}
+
+.inputTask {
+  display: flex;  
+  gap: 10px;      
+}
+
+.inputTask input {
+  flex: 1;             
+  padding: 10px;        
+  font-size: 16px;      
+}
+
+.inputTask button {
+  padding: 10px 15px;       
+  background-color: #b81868; 
+  color: white;              
+  border: none;             
+  border-radius: 5px;
+  cursor: pointer;         
+}
+
+.titleBar {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* spacing between text and icon */
+  justify-content: center; /* center it horizontally */
+  margin-bottom: 20px;
+}
+.titleBar i {
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.taskData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dbbdd0;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 8px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.taskData p {
+  margin: 0;
+  font-size: 16px;
+  flex: 1;
+}
+
+.taskData i {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-left: 10px;
+}
