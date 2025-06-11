@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background-color: #b7cdda;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+}
